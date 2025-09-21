@@ -143,6 +143,21 @@
       50% {transform: scale(1.1);}
       100% {transform: scale(1);}
     }
+      .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+      background: linear-gradient(45deg, #ff6b81, #ff9a9e);
+      color: #fff;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+      margin: 6px;
+    }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 22px rgba(0,0,0,0.2); }
+    .btn.ghost { background: rgba(255,255,255,0.15); color: #ff254a; backdrop-filter: blur(4px); border: 2px solid #ff6b81; }
+    .btn.ghost:hover { opacity: 0.9; }
   </style>
 </head>
 <body>
@@ -170,9 +185,13 @@
     </ul>
   </section>
 
-  <section id="publication">
+  <  <section id="publication">
     <h2>Publication</h2>
     <p>“The Impact of Artificial Intelligence Represented by ChatGPT on UI Design,” published in the Proceedings of the 2nd International Conference on Software Engineering and Machine Learning, 2024.</p>
+    <p style="text-align:center;margin-top:20px;">
+      <a class="btn" href="https://www.ewadirect.com/proceedings/ace/article/view/13796" target="_blank" rel="noopener noreferrer">Read Full Paper</a>
+      <a class="btn ghost" href="https://doi.org/10.54254/2755-2721/77/20240651" target="_blank" rel="noopener noreferrer">DOI: 10.54254/2755-2721/77/20240651</a>
+    </p>
   </section>
 
   <section id="academic">
