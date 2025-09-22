@@ -4,16 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ruoxiao Zhang (Roxanna)</title>
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Font Awesome -->
+    <!-- Font Awesome for icons -->
     <script src="https://kit.fontawesome.com/5825d844c7.js" crossorigin="anonymous"></script>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f3fb; /* very light purple */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            background: #a98ad2; /* soft purple */
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f3e9ff;
+        }
+
+        /* Sections */
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+        }
+
+        section h2 {
+            color: #6a0dad;
+            margin-bottom: 15px;
+        }
+
+        /* Contact */
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            margin: 0 15px;
+            font-size: 28px;
+            color: #6a0dad;
+            transition: color 0.3s;
+        }
+
+        .contact a:hover {
+            color: #9b59b6;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#publication">Publication</a></li>
             <li><a href="#academic">Academic</a></li>
@@ -25,69 +96,69 @@
     </nav>
 
     <!-- Home -->
-    <header id="home">
-        <h1>Ruoxiao Zhang (Roxanna)</h1>
-        <p>Undergraduate Student at University of Waterloo | Honours Mathematics | Expected Graduation: 2030</p>
-    </header>
+    <section id="home">
+        <h1 style="text-align:center; color:#6a0dad;">Ruoxiao Zhang (Roxanna)</h1>
+        <p style="text-align:center;">Undergraduate Student at University of Waterloo | Honours Mathematics | Expected Graduation: 2030</p>
+    </section>
 
     <!-- Education -->
-    <section id="education" class="card">
+    <section id="education">
         <h2>Education</h2>
-        <p>Bachelor of Mathematics, Honours Mathematics, University of Waterloo, Canada</p>
+        <p><b>University of Waterloo</b>, Bachelor of Mathematics, Honours Mathematics, Canada (Expected Graduation: 2030)</p>
+        <p><b>High School</b>, GPA: 3.88 / 4.0</p>
     </section>
 
     <!-- Publication -->
-    <section id="publication" class="card">
+    <section id="publication">
         <h2>Publication</h2>
-        <ul>
-            <li>[Add your publications here]</li>
-        </ul>
+        <p><i>人生模拟器——受虐性格是怎么形成的</i>, co-authored with Zhang Ruoxiao, Huang Lanlan, and He Xuanyu.</p>
+        <p>Study focused on sadomasochism using a life simulator to explore how masochistic tendencies develop and what factors can restore mental health.</p>
     </section>
 
     <!-- Academic -->
-    <section id="academic" class="card">
+    <section id="academic">
         <h2>Academic</h2>
         <ul>
-            <li>[Add academic experiences here]</li>
+            <li>Research in psychology simulations and behavioral modeling.</li>
+            <li>Projects in computer science and data science with a focus on statistics and machine learning.</li>
         </ul>
     </section>
 
     <!-- Leadership -->
-    <section id="leadership" class="card">
+    <section id="leadership">
         <h2>Leadership</h2>
         <ul>
-            <li>[Add leadership experiences here]</li>
+            <li>Led collaborative academic projects with peers, coordinating research and writing.</li>
+            <li>Engaged in student-led initiatives bridging humanities and technology.</li>
         </ul>
     </section>
 
     <!-- Honors -->
-    <section id="honors" class="card">
+    <section id="honors">
         <h2>Honors</h2>
         <ul>
-            <li>[Add honors or awards here]</li>
+            <li>Admitted to University of Waterloo Computer Science program (2025).</li>
+            <li>Recognized for interdisciplinary research at high school level.</li>
         </ul>
     </section>
 
     <!-- Skills -->
-    <section id="skills" class="card">
+    <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li>[Add your skills here]</li>
+            <li>Programming: Python, Java, HTML, CSS</li>
+            <li>Data Science & Statistics</li>
+            <li>Research and Academic Writing</li>
+            <li>Bilingual: Chinese & English</li>
         </ul>
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="card">
+    <section id="contact" class="contact">
         <h2>Contact Me</h2>
-        <p>
-            <a href="mailto:zrx070611@gmail.com" class="btn"><i class="fas fa-envelope"></i> Email</a>
-            <a href="https://www.instagram.com/r_zhang611" class="btn" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-            <a href="http://linkedin.com/in/ruoxiao-zhang-4ab032382" class="btn" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        </p>
+        <a href="mailto:zrx070611@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.instagram.com/r_zhang611" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="http://linkedin.com/in/ruoxiao-zhang-4ab032382" target="_blank"><i class="fab fa-linkedin"></i></a>
     </section>
-
-    <footer>
-        <p>&copy; 2025 Ruoxiao Zhang. All rights reserved.</p>
-    </footer>
 </body>
 </html>
