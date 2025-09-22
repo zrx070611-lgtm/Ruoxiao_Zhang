@@ -1,0 +1,78 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f3fb; /* very light purple */
+  color: #4b3f72; /* deep purple for text */
+  line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+  background: #a98ad2; /* soft purple */
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffe6ff; /* pastel pink hover */
+}
+
+/* Sections */
+section {
+  background: #ffffff;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 900px;
+}
+
+h1, h2, h3 {
+  color: #6a4c93;
+}
+
+/* Buttons (for Contact Me) */
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  background: #b8a1d9;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #9f86c0;
+}
+
+/* Footer */
+footer {
+  background: #a98ad2;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
