@@ -22,7 +22,7 @@ body::before, body::after {
   top: 0;
   bottom: 0;
   width: 150px;
-  background: url('images/vines.png') repeat-y;
+  background: url('vines.png') repeat-y;
   opacity: 0.15;
   z-index: -1;
 }
