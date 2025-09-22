@@ -4,69 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ruoxiao Zhang (Roxanna)</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/5825d844c7.js" crossorigin="anonymous"></script>
-  <style>
-    body {
-      font-family: 'Arial', sans-serif;
-      background: #f4fff6; /* very light green */
-      color: #333;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background-image: url('https://i.ibb.co/mJgLtv8/leaf-border.png');
-      background-repeat: repeat-y;
-      background-position: left, right;
-      background-size: 120px;
-    }
-    nav {
-      background: #7ec77e;
-      padding: 15px 0;
-      text-align: center;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-    }
-    nav ul li { margin: 0 15px; }
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-      transition: color 0.3s;
-    }
-    nav ul li a:hover { color: #e8ffe8; }
-    section {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 20px;
-      background: #ffffff;
-      border-radius: 12px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-      border-left: 6px solid #7ec77e;
-    }
-    section h2 {
-      color: #2f7d32;
-      margin-bottom: 15px;
-    }
-    .contact { text-align: center; }
-    .contact a {
-      margin: 0 15px;
-      font-size: 28px;
-      color: #2f7d32;
-      transition: color 0.3s;
-    }
-    .contact a:hover { color: #4caf50; }
-    footer {
-      text-align: center;
-      background: #7ec77e;
-      color: white;
-      padding: 15px;
-      margin-top: 30px;
-    }
-  </style>
 </head>
 <body>
+  <!-- Navigation -->
   <nav>
     <ul>
       <li><a href="#education">Education</a></li>
@@ -75,98 +18,110 @@
       <li><a href="#awards">Awards</a></li>
       <li><a href="#research">Research</a></li>
       <li><a href="#leadership">Leadership</a></li>
+      <li><a href="#social">Social Justice</a></li>
       <li><a href="#honors">Honors</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
-  <section id="home">
-    <h1 style="text-align:center; color:#2f7d32;">Ruoxiao Zhang (Roxanna)</h1>
-    <p style="text-align:center;">Undergraduate Student at University of Waterloo | Honours Mathematics | Expected Graduation: 2030</p>
-  </section>
+  <!-- Header -->
+  <header>
+    <h1>Ruoxiao Zhang (Roxanna)</h1>
+    <p>Undergraduate Student at University of Waterloo | Honours Mathematics | Expected Graduation: 2030</p>
+  </header>
 
-  <section id="education">
+  <!-- Education -->
+  <section id="education" class="card">
     <h2>Education</h2>
-    <p><b>Chongqing Nankai Secondary School</b>, Chongqing, China (CEEB: 694382)<br>
-    Sept 2022 – Jul 2025<br>
-    AP Subjects: Calculus BC, Computer Science A, Physics 1, Physics C: Electricity & Magnetism, Physics C: Mechanics, Psychology, Statistics, Macroeconomics<br>
-    GPA: <b>3.87 (unweighted)</b></p>
+    <p><strong>Chongqing Nankai Secondary School</strong>, Chongqing, China (CEEB: 694382)</p>
+    <p>Sept 2022 – Jul 2025</p>
+    <p>AP Subjects: Calculus BC, Computer Science A, Physics 1, Physics C: Electricity & Magnetism, 
+       Physics C: Mechanics, Psychology, Statistics, Macroeconomics</p>
+    <p><strong>GPA: 3.88 (unweighted)</strong></p>
   </section>
 
-  <section id="publication">
+  <!-- Publication -->
+  <section id="publication" class="card">
     <h2>Publication</h2>
-    <p><b>The Impact of Artificial Intelligence Represented by ChatGPT on UI Design</b><br>
-    Sole Author, June 2024<br>
-    Proceedings of the 2nd International Conference on Software Engineering and Machine Learning<br>
-    ISBN: 978-1-83558-513-9 (Print) / 978-1-83558-514-6 (Online)<br>
-    DOI: <a href="https://doi.org/10.54254/2755-2721/77/20240651" target="_blank">10.54254/2755-2721/77/20240651</a></p>
+    <p><strong>The Impact of Artificial Intelligence Represented by ChatGPT on UI Design</strong><br>
+       Sole Author, Proceedings of the 2nd International Conference on Software Engineering and Machine Learning, June 2024<br>
+       ISBN: 978-1-83558-513-9 (Print) / 978-1-83558-514-6 (Online)<br>
+       DOI: 10.54254/2755-2721/77/20240651</p>
   </section>
 
-  <section id="academic">
-    <h2>Academic Courses</h2>
-    <p><b>Human-Computer Interaction: Principles and Practice of HCI</b><br>
-    Online, Jan–Apr 2024<br>
-    Co-offered by Prof. Leob (Dartmouth College) & Prof. Liu (Chongqing University)<br>
-    - Studied fundamental HCI concepts and theories<br>
-    - Designed a prototype on Figma under professors’ guidance<br>
-    - Independently developed “FitFuel” app prototype to manage body measurements and fitness goals</p>
+  <!-- Academic -->
+  <section id="academic" class="card">
+    <h2>Academic Course</h2>
+    <p><strong>Human-Computer Interaction: Principles and Practice of HCI (Online)</strong><br>
+       Co-offered by Prof. Leob (Dartmouth College) & Prof. Liu (Chongqing University), Jan – Apr 2024<br>
+       - Learned fundamental HCI theories<br>
+       - Designed a Figma software prototype<br>
+       - Built an interactive app prototype <em>FitFuel</em></p>
   </section>
 
-  <section id="awards">
+  <!-- Awards -->
+  <section id="awards" class="card">
     <h2>Academic Awards</h2>
     <ul>
-      <li><b>31st Annual International Space Settlement Design Competition</b>, Florida, USA, Jul 2024 – Winning Company</li>
-      <li><b>20th Asian Regional Space Settlement Design Competition</b>, Dubai, Mar–Apr 2024 – Certificate of Excellence & Winning Company</li>
-      <li><b>31st ISSDC China Finals</b>, Guangzhou, Nov 2023 – Certificate of Appreciation & Winning Company</li>
-      <li><b>USA Computing Olympiad</b>, Feb 2024 – Gold Medal</li>
+      <li>🏆 International Space Settlement Design Competition (Florida, USA) – Winning Company, July 2024</li>
+      <li>🏆 Asian Regional Space Settlement Design Competition (Dubai, ARE) – Certificate of Excellence, Apr 2024</li>
+      <li>🏆 Space Settlement Design Competition China Finals – Champion, Nov 2023</li>
+      <li>🥇 USA Computing Olympiad – Gold Medal, Feb 2024</li>
     </ul>
   </section>
 
-  <section id="research">
+  <!-- Research -->
+  <section id="research" class="card">
     <h2>Research Experiences</h2>
-    <ul>
-      <li><b>Rice Elite Tech Camps</b>, Houston, USA, Jul 2024 – Learned Fusion for 3D modeling & C++ for human spaceflight engineering</li>
-      <li><b>Young Eagle Project</b>, Chongqing University, May 2023–May 2024 – Assisted with programming, researched electricity price regulation</li>
-    </ul>
+    <p><strong>Rice Elite Tech Camps</strong>, Houston, USA (July 2024)<br>
+       - 3D modeling in Fusion, C++ for human spaceflight engineering</p>
+    <p><strong>Young Eagle Project (Chongqing University)</strong>, May 2023 – May 2024<br>
+       - Assisted programming, explored electricity price regulation platforms</p>
   </section>
 
-  <section id="leadership">
-    <h2>Leadership</h2>
-    <ul>
-      <li><b>Chongqing Nankai Secondary School Model United Nations</b>, President (Oct 2023 – Jun 2024)</li>
-      <li><b>Chongqing Nankai Secondary School Talk Show</b>, Vice President (Sept 2023 – Jun 2024)</li>
-    </ul>
+  <!-- Leadership -->
+  <section id="leadership" class="card">
+    <h2>Leadership Experiences</h2>
+    <p><strong>President, Chongqing Nankai Secondary School MUN</strong>, Oct 2023 – Jun 2024<br>
+       - Coordinated discussions with 20–30 participants<br>
+       - Authored academic papers on international conflicts</p>
+    <p><strong>Vice President, Talk Show Club</strong>, Sep 2023 – Jun 2024<br>
+       - Organized workshops on stand-up comedy<br>
+       - Supported student mental health through humor</p>
   </section>
 
-  <section id="honors">
+  <!-- Social Justice -->
+  <section id="social" class="card">
+    <h2>Social Justice</h2>
+    <p><strong>Delegate of Germany, Youth MUN Winter Conference 2023</strong> – Honorable Mention</p>
+    <p><strong>Harvard Model United Nations Conference (Guangzhou)</strong>, Aug 2023 – Press Center Reporter</p>
+  </section>
+
+  <!-- Honors -->
+  <section id="honors" class="card">
     <h2>Honors</h2>
     <ul>
-      <li>2023 Chongqing Cross-country Challenge Medal</li>
-      <li>Certificate of Excellence in AIMC (Top 5% AMC 12)</li>
-      <li>5th Place, Women’s 1500m Running, School Sports Meeting (2023–2024)</li>
-      <li>Honor of Distinction in Euclid Contest (Top 25%)</li>
-      <li>Honorable Mention in Youth Model United Nations Winter Conference 2023</li>
+      <li>🥇 Cross-country Challenge Medal (Dec 2023)</li>
+      <li>🥇 AMC 12 Certificate of Excellence (Top 5%)</li>
+      <li>🏃 5th place, Women’s 1500m, School Sports Meeting 2023–2024</li>
+      <li>🏅 Distinction in Euclid Contest (Top 25%)</li>
     </ul>
   </section>
 
-  <section id="skills">
+  <!-- Skills -->
+  <section id="skills" class="card">
     <h2>Skills & Hobbies</h2>
-    <ul>
-      <li>Programming: Python (Jupyter Notebook), C++ (Dev C++), Java (JDoodle)</li>
-      <li>Hobbies: Cross-country Running, Swimming, Table Tennis, Gym, Painting, Cooking</li>
-    </ul>
+    <p><strong>Programming:</strong> Python, C++, Java</p>
+    <p><strong>Hobbies:</strong> Cross-country Running, Swimming, Table Tennis, Gym, Painting, Cooking</p>
   </section>
 
-  <section id="contact" class="contact">
+  <!-- Contact -->
+  <section id="contact" class="card contact">
     <h2>Contact Me</h2>
-    <a href="mailto:zrx070611@gmail.com"><i class="fas fa-envelope"></i></a>
-    <a href="https://www.instagram.com/r_zhang611" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="http://linkedin.com/in/ruoxiao-zhang-4ab032382" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/r_zhang611" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    <a href="http://linkedin.com/in/ruoxiao-zhang-4ab032382" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a href="mailto:zrx070611@gmail.com"><i class="fas fa-envelope"></i> Email</a>
   </section>
-
-  <footer>
-    <p>&copy; 2025 Ruoxiao Zhang. All rights reserved.</p>
-  </footer>
 </body>
 </html>
